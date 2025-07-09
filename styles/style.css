@@ -1,0 +1,41 @@
+div.header{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 600px;
+    max-width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.header_content{
+    align-items: center;
+    justify-content: center;
+    display:block;
+    height: 400px;
+    width: 1320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.228));
+    padding-top: 200px;
+    border-radius: 15px;
+}
+.header_content .header_title{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+}
+.header_content .header_title_head1{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+}
+.header_content .header_title_head2{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+}
