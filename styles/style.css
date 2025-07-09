@@ -39,3 +39,40 @@ div.header{
     margin: 0px;
     font-family: "Merriweather", serif;
 }
+
+/* shared styles */
+.text_style{
+    font-family: "Inter", serif;
+    color: #FF0000;
+}
+
+/* offer styles */
+.offer_rate{
+    color: #FF0000;
+    font-size: 4em;
+    font-family: "Inter", serif;
+    font-weight: bold;
+    font-size: 88px;
+}
+.offer_holiday{
+    font-weight: medium;
+    font-size: 24px;
+}
+
+.offer_catagory{
+    font-weight: bold;
+    font-size: 48px;
+}
+/* Night party Styles */
+.party_container{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 600px;
+    text-align: left;
+}
+.night{
+    text-align: left;
+    color: white;
+}
