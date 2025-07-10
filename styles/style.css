@@ -47,6 +47,12 @@ div.header{
 }
 
 /* offer styles */
+div.offer_container{
+    margin: 0 auto;
+    max-width: 803px;
+    height: 900px;
+    justify-items: center;
+}
 .offer_rate{
     color: #FF0000;
     font-size: 4em;
@@ -67,6 +73,7 @@ div.header{
 .party_container{
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
+    display: block;
     margin: 0 auto;
     max-width: 1320px;
     height: 600px;
