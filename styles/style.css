@@ -1,85 +1,70 @@
-div.header{
-    background-image: url('../images/Banner\ Image.png');
-    background-repeat: no-repeat;
-    display: flex;
-    height: 600px;
-    max-width: 1320px;
+*body{
     margin: 0 auto;
-    align-items: center;
-    justify-content: center;
 }
-.header_content{
-    align-items: center;
-    justify-content: center;
-    display:block;
-    height: 400px;
-    width: 1320px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.228));
-    padding-top: 200px;
-    border-radius: 15px;
-}
-.header_content .header_title{
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    margin: 0px;
-    font-family: "Merriweather", serif;
-}
-.header_content .header_title_head1{
-    color: white;
-    font-size: 4em;
-    text-align: center;
-    margin: 0px;
-    font-family: "Merriweather", serif;
-}
-.header_content .header_title_head2{
-    color: white;
-    font-size: 4em;
-    text-align: center;
-    margin: 0px;
-    font-family: "Merriweather", serif;
-}
-
-/* shared styles */
-.text_style{
-    font-family: "Inter", serif;
-    color: #FF0000;
-}
-
-/* offer styles */
-div.offer_container{
+.header{
+    background-image: url(../Images/Hero-bg.png);
+    height: 700px;
+    width: 100%;
     margin: 0 auto;
-    max-width: 803px;
-    height: 900px;
+}
+.nav_bar{
+    margin: 0 auto;
+    max-width: 1340px;
+    height: 150px;
+}
+.banner{
+    padding-top: 50px;
+}
+.nav_bar li{
+    display: inline;
+}
+.logo{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 34px;
+    float: left;
+    font-family: Inter;
+}
+.nav_button{
+    float: right;
+}
+.nav_button a{
+    text-decoration: none;
+    color: white;
+}
+.btn_signUp{
+    height: 50px;
+    width: 135px;
+}
+.banner_title_btn{
+    margin: 0 auto;
+    height: 240px;
+    width: 900px;
     justify-items: center;
 }
-.offer_rate{
-    color: #FF0000;
-    font-size: 4em;
-    font-family: "Inter", serif;
-    font-weight: bold;
-    font-size: 88px;
-}
-.offer_holiday{
-    font-weight: medium;
-    font-size: 24px;
-}
-
-.offer_catagory{
-    font-weight: bold;
-    font-size: 48px;
-}
-/* Night party Styles */
-.party_container{
-    background-image: url('../images/Vectorrr.png');
-    background-repeat: no-repeat;
-    display: block;
-    margin: 0 auto;
-    max-width: 1320px;
-    height: 600px;
-    text-align: left;
-}
-.night{
-    text-align: left;
+.btn_focused{
+    height: 50px;
+    width: 150px;
     color: white;
+    font-weight: bold;
+    margin-left: 370px;
+
+}
+.banner_title1{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+.banner_title2{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+/* shared Styles */
+.btn_color{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
 }
